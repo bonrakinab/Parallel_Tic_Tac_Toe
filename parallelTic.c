@@ -322,7 +322,6 @@ current_symbol = 1 - current_symbol;
 }
 printf("\nWinner: %i", (int) result);
 clock_t end_clock = clock();
-printf("\nTime taken : 61.5 seconds\n");
 printf("\nSystem execution Time : %.4g\n", (double) (end_clock - start_clock) / CLOCKS_PER_SEC);
 return 0;
 }
